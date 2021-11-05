@@ -22,3 +22,34 @@ text-align: center;
 font-family: 'Frank Ruhl Libre', serif;
 font-size: 30px;
 }
+#kanine{
+background-color: rgb(243, 255, 212);
+}
+header{
+    background-image: url(kanine/Header_20.jpg);
+    background-color: #1d1e19;
+    background-position-x: right;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+.title{
+    font-family: 'Fruktur', cursive;
+    font-size: 40px;
+}
+p{
+    float: left;
+
+width: 650px;
+margin-left: 100px;
+font-size: 30px;
+}
+aside img{
+width: 400px;
+height: 400px;
+float: right;
+margin-right: 50px;
+
+
+}
