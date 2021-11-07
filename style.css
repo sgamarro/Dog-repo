@@ -29,7 +29,7 @@ header{
     background-image: url(kanine/Header_20.jpg);
     background-color: #1d1e19;
     background-position-x: right;
-    margin-left: 20px;
+    margin-left: 10px;
     background-repeat: no-repeat;
     color: white;
     
@@ -52,4 +52,18 @@ float: right;
 margin-right: 50px;
 
 
+}
+div#messege{
+    background-color: gold;
+    height: 50px;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+div.showme{
+    display:block;
+}
+div.hideme{
+    display: none;
 }
