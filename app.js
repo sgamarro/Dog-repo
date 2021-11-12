@@ -3,4 +3,5 @@ function calculateDogAge(num) {
     var tempCalc = degree*7;
     document.getElementById("celDeg").innerHTML = Math.round(tempCalc);
     } 
-    calculateDogAge();
+calculateDogAge();
+
