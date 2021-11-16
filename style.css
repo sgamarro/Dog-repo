@@ -81,4 +81,14 @@ div.hideme{
 }
 #xbox{
     background-color: white;
+    width: 250px;
+
+}
+#ps5{
+    background-color: white;
+    width: 260px;
+}
+#swit{
+    background-color: white;
+    width: 260px;
 }
