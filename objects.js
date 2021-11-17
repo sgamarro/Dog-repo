@@ -28,26 +28,19 @@ function xboxSpec(){
   RAM: ${xbox['RAM']}<br>
   FPS:${xbox['FPS']}<br>
   Graphics:${xbox['Graphics']}`;
-//  var x = document.getElementById("xbox");
-//  if (x.style.display === "none") {
-//    x.style.display = "block";
-//  } else {
-//    x.style.display = "none";
-//  }
 }
-
+function closeX(){
+  document.getElementById('xbox').style.display= "none";
+}
 function ps5Spec(){
   document.getElementById('ps5').innerHTML = `Manufacture: ${ps5["Manufacture"]}<br>
   Memory: ${ps5['Memory']}<br>
   RAM: ${ps5['RAM']}<br>
   FPS:${ps5['FPS']}<br>
   Graphics:${ps5['Graphics']}`;
-  // var x = document.getElementById("ps5");
-  // if (x.style.display === "none") {
-  //   x.style.display = "block";
-  // } else {
-  //   x.style.display = "none";
-  // }
+ }
+ function closeP(){
+   document.getElementById('ps5').style.display="none";
  }
  function switSpec(){
   document.getElementById('swit').innerHTML = `Manufacture: ${swit["Manufacture"]}<br>
@@ -55,37 +48,10 @@ function ps5Spec(){
   RAM: ${swit['RAM']}<br>
   FPS:${swit['FPS']}<br>
   Graphics:${swit['Graphics']}`;
-  // var x = document.getElementById("swit");
-  // if (x.style.display === "none") {
-  //   x.style.display = "block";
-  // } else {
-  //   x.style.display = "none";
-  // }
+ 
  }
+ function closeS(){
+   document.getElementById('swit').style.display="none";
+ }
+ 
 
-//  var books =[
-//    {
-//      tittle:"Rich dad poor Dad",
-//      author:"Robert Kiyosaki",
-//      alreadyRead: true
-//       },
-//       {
-//         title: "The Power of Now",
-//         author: "Eckhart",
-//         alreadyRead: false
-//       },
-//       {
-//         title:"You are a badass",
-//         author:"skm",
-//         alreadyRead:true
-//       }
-//  ];
-// for (i=0;i<books.length;i++){
-// var books = books [i];
-// var bookInfo= books.title + 'by' + books.author;
-// if(books.alreadyRead){
-//   document.write('You read' + bookInfo);
-// }else {
-//   document.write('you still need to check out' + bookInfo + '<br>');
-// }
-// }
