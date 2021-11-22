@@ -118,6 +118,23 @@ div.hideme{
 display: flex;
 flex-direction: row;
 }
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+   
+}
+.flex-container3{
+    display: flex;
+    flex-direction: row;
+}
+.flex-container4{
+    display: flex;
+    flex-direction: row;
+}
+.flex-container5{
+    display: flex;
+    flex-direction: row;
+}
 .flex-container1 img{
     width: 250px;
     height: 250px;
@@ -137,6 +154,52 @@ h4{
     width: 400px;
     height: 400px;
 }
+.flex-item2 img,
+.flex-item3 img,
+.flex-item4 img{
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 125px;
+}
+.flex-item5{
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+}
+.flex-item6{
+color: white;
+text-align: center;
+margin-left: 260px;
+}
+.flex-item7{
+    color: white;
+text-align: center;
+margin-left: 270px;
+}
+.flex-item8 img,
+.flex-item9 img,
+.flex-item10 img{
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 125px;
+}
+.flex-item11{
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+}
+.flex-item12{
+    color: white;
+text-align: center;
+margin-left: 260px;
+}
+.flex-item13{
+    color: white;
+    text-align: center;
+    margin-left: 270px;
+}
 #xbox{
     background-color: white;
     width: 250px;
@@ -149,4 +212,10 @@ h4{
 #swit{
     background-color: white;
     width: 260px;
+}
+#smDog, #medDog, #biDog {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
 }

@@ -1,4 +1,58 @@
+var sDog = {
+  ml1: '1/4ml = 1.75mg',
+  ml2: '1/2ml = 3.5mg',
+  ml3: '3/4ml = 5.25mg',
+  ml4:  '1ml = 7mg' 
+};
+const mDOg ={
+  ml1: '1/4ml = 4.25mg',
+  ml2: '1/2ml = 8.5mg',
+  ml3: '3/4ml = 12.75mg',
+  ml4:  '1ml = 17mg' 
+};
+const bDog ={
+  ml1: '1/4ml = 6.75mg',
+  ml2: '1/2ml = 13.5mg',
+  ml3: '3/4ml = 20.25mg',
+  ml4: '1ml = 27mg' 
+};
 
+function smallDog(){
+var x = document.getElementById('smDog');
+document.getElementById('smDog').innerHTML= `${sDog["ml1"]} <br>
+${sDog["ml2"]}<br>
+${sDog["ml3"]}<br>
+${sDog["ml4"]}<br>`;
+if (x.style.display === "none") {
+  x.style.display = "block";
+} else {
+  x.style.display = "none";
+}
+}
+function mediumDog(){
+  var z = document.getElementById('medDog');
+  document.getElementById('medDog').innerHTML = `${mDOg["ml1"]} <br>
+  ${mDOg["ml2"]}<br>
+  ${mDOg["ml3"]}<br>
+  ${mDOg["ml4"]}`;
+  if (z.style.display === "none") {
+    z.style.display = "block";
+  } else {
+    z.style.display = "none";
+  }
+}
+function bigDog(){
+  var y = document.getElementById('biDog');
+  document.getElementById('biDog').innerHTML=`${bDog["ml1"]}<br>
+  ${bDog["ml2"]}<br>
+  ${bDog["ml3"]}<br>
+  ${bDog["ml4"]}`;
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
+}
 // object litreral
 // var sister= {
 //     firstName: "Andrea",
