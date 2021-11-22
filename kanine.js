@@ -1,15 +1,15 @@
 
 // object litreral
-var sister= {
-    firstName: "Andrea",
-    age: 19,
-    single: true,
-    children: false,
-    order: 'younger'
-};
-sister.single =false;
-sister.gender = 'female';
-delete sister.age;
+// var sister= {
+//     firstName: "Andrea",
+//     age: 19,
+//     single: true,
+//     children: false,
+//     order: 'younger'
+// };
+// sister.single =false;
+// sister.gender = 'female';
+// delete sister.age;
 // new keyword setting the values
 // var sibling = new Object();
 // // sibling.name ='Andrea';
@@ -18,29 +18,29 @@ delete sister.age;
 // sibling.children = false;
 // sibling.order = 'younder';
 
-var meeting = (`Hello my name is ${sister['firstName']} I am ${sister['age'] } Am I single ${sister['single']} I am a ${sister['gender']}`)
-console.log(meeting);
+// var meeting = (`Hello my name is ${sister['firstName']} I am ${sister['age'] } Am I single ${sister['single']} I am a ${sister['gender']}`)
+// console.log(meeting);
 
-var moleRecipe = {
-    food: 'Mole',
-    server: 2,
-    ingridients:['cinnamon, cocoa, cumin']
-};
-console.log(`Food: ${moleRecipe['food']}`)
-console.log(`Serving: ${moleRecipe['server']}`)
-console.log(`Ingridiens: ${moleRecipe['ingridients']}`)
-for(var i=0; i=moleRecipe.length;i++){
-    console.log(`${moleRecipe.ingridients[i]}`)
-}
-document.getElementById('recipe').innerHTML = 'title:' + moleRecipe.food;
-document.getElementById('serving').innerHTML = 'serving:' + moleRecipe.server;
-document.getElementById('ingridients').innerHTML = 'ingridients:' + moleRecipe.ingridients;
+// var moleRecipe = {
+//     food: 'Mole',
+//     server: 2,
+//     ingridients:['cinnamon, cocoa, cumin']
+// };
+// console.log(`Food: ${moleRecipe['food']}`)
+// console.log(`Serving: ${moleRecipe['server']}`)
+// console.log(`Ingridiens: ${moleRecipe['ingridients']}`)
+// for(var i=0; i=moleRecipe.length;i++){
+//     console.log(`${moleRecipe.ingridients[i]}`)
+// }
+// document.getElementById('recipe').innerHTML = 'title:' + moleRecipe.food;
+// document.getElementById('serving').innerHTML = 'serving:' + moleRecipe.server;
+// document.getElementById('ingridients').innerHTML = 'ingridients:' + moleRecipe.ingridients;
 
 
 var ageRef=prompt("How old are you?");
 function AgeVerifier(){
     if (ageRef<21){
-        location.replace("index.html");
+        location.replace("index2.html");
     }
 else if (ageRef>=21){
         window.alert('Welcome')
@@ -83,27 +83,27 @@ const element=document.getElementById('messege')
 // element.innerHTML='check out the Special Today 🍀'  + special();
 switch (new Date().getDay()) {
     case 0:
-      day = "Sunday";
+      day = "Brunch and free samples";
       break;
     case 1:
-      day = "Monday";
+      day = "50% off oils";
       break;
     case 2:
-       day = "Tuesday";
+       day = "2 for 1 on treats";
       break;
     case 3:
-      day = "Wednesday";
+      day = "Buy one get one free";
       break;
     case 4:
-      day = "Thursday";
+      day = "Get a gummy free";
       break;
     case 5:
-      day = "Friday";
+      day = "Bring a friend get an extra treat";
       break;
     case 6:
-      day = "Saturday";
+      day = "Buy one get one free";
   }
-document.getElementById("messege").innerHTML=( `Today is ${day}`)
+document.getElementById("messege").innerHTML=( `Today's special is ${day}!!!`)
 // console.log ('Today is'+ day)
 // function assignGrade(score){
 // if(score>90){

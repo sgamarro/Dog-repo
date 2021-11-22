@@ -1,31 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kanine Kandies</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-    <h1>How old is your Dog?</h1>
-    
-    <input type="number" id="dog" placeholder="Enter age" required />
-    <button onClick="calculateDogAge()" class="calculate">Calculate</button>
-    <h2 class="result">Your dog's age is...</h2>      
-        <h2 id="celDeg">0</h2>
+
+<body id="kanine">
+    <div id="messege"></div>
+    <header>
+
+        <h1 class="title">Kanine Kandies</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Information</a>
+            <div class="dropdown">
+                <button class="dropbtn">Fun things</button>
+                <div class="dropdown-content">
+
+                    <a href="index.html">Fun Place</a>
+                    <a href="fortune.html">Fortune</a>
+                    <a href="objects.html">Objects</a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <h2>Cannabis for them</h2>
+    <div>
+        <img id="carousel-images">
+    </div>
+    <br>
+    <br>
+    <br>
+    <p>Not only has CBD oil been touted as a useful treatment for humans, but our pets as well. As dogs host an
+        endocannabinoid system just like humans, they're able to experience the same benefits of CBD as well. This
+        includes helping with symptoms ranging from mental anguish such as anxiety to physical ailments as well.</p>
+
+    <aside>
+        <img src="kanine/four-leaf-rover-full-spectrum-cbd-oil-29924734369839.jpg" alt="image not found">
+    </aside>
+<br>
+<br>
+<br>
+<br>
+<h2>Recomended Dosages</h2>
+<div class="flex-container1">
+<div class="flex-item">
+    <h4>Small Dogs</h4>
+<img src="kanine/GettyImages-559514141.jpg" alt="">
+<button id="sDog">More info</button>
+<div id="smDog"></div>
+</div>
+<div class="flex-item">
+<h4>Medium Dogs</h4>
+<img src="kanine/toypoodle-smal.jpg" alt="">
+<button>More info</button>
+<div id="medDog"></div>
+</div>
+<div class="flex-item">
+    <h4>Big Dogs</h4>
+    <img src="kanine/German-shepherd.jpg" alt="">
+    <button>More info</button>
+    <div id="bDog"></div>
 </div>
 
+</div>
+
+    <!-- <img id="carousel-images1"> -->
 
 
 
-    <script src="app.js"></script>
+    <script src="kanine.js"></script>
 </body>
+
 </html>

@@ -31,6 +31,7 @@ function xboxSpec(){
 }
 function closeX(){
   document.getElementById('xbox').style.display= "none";
+  
 }
 function ps5Spec(){
   document.getElementById('ps5').innerHTML = `Manufacture: ${ps5["Manufacture"]}<br>
@@ -51,7 +52,7 @@ function ps5Spec(){
  
  }
  function closeS(){
-   document.getElementById('swit').style.display="none";
+ document.getElementById('swit').style.display="none";
  }
  
 
