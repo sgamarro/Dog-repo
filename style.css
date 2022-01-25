@@ -267,3 +267,49 @@ form label{
     color: blue;
     text-decoration:underline;
 }
+#cart{
+    background-color: rgb(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0px 300px 0px 300px;
+}
+.cart-container{
+    
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+  
+}
+.cart-tags{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 100px 0px 100px;
+}
+.cart-item-tag{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 100px 0px 100px;
+}
+.cart-item-tag .cart-item{
+    margin: 0px 20px 0px 30px;
+}
+.cart-tags .tag{
+    margin: 0px 30px 5px 30px;
+    border-bottom: 2px solid black;
+}
+.cart-item-tag{
+    display: flex;
+    flex-direction: row;
+}
+.cart-item img{
+border-radius: 12px;
+}
+.cart-item-quantity{
+    margin-left: 50px;
+}
+.cart-item-quantity .quantity-class{
+    width: 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.8);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="cart">
+
+        <h1>Cart</h1>
+        <div class="cart-container">
+            <div class="cart-tags">
+                <div class="tag"><h2>Item</h2></div>
+                <div class="tag"><h2>Price</h2></div>
+                <div class="tag"><h2>Quantity</h2></div>
+            </div>
+            <div class="cart-row">
+            <div class="cart-item-tag">
+                <div class="cart-item">
+                    <img width="70px" height="70px" src="kanine/sample.jpg" alt="">
+                    <span class="cart-item-title">sample</span>
+                </div>
+                <span class="cart-item-price">$15.99</span>
+                <div class="cart-item-quantity">
+                    <input type="number" name="quantity" class="quantity-class" value="1">
+                    <button class="remove-btn" type="button">remove</button>
+                </div>
+            </div>
+            <div class="cart-item-tag">
+                <div class="cart-item">
+                    <img width="70px" height="70px" src="kanine/clean.jpg" alt="">
+                    <span class="cart-item-title">Clean breath</span>
+                </div>
+                <span class="cart-item-price">$4.99</span>
+                <div class="cart-item-quantity">
+                    <input type="number" name="quantity" class="quantity-class" value="1">
+                    <button class="remove-btn" type="button">remove</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$20.98</span>
+        </div>
+        <button>Purchase</button>
+        
+        
+    </div>
+        
+        <script src="forms.js"></script>
+    </body>
+    
+</html>
