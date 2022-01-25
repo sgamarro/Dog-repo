@@ -219,3 +219,51 @@ margin-left: 260px;
     height: 200px;
     margin-left: 100px;
 }
+form{
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius:12px ;
+    width: 400px;
+    display: block;
+    margin: auto;   
+    padding: 10px;
+}
+form input{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 30px;
+    margin: 10px ;
+    margin-left: 40px;
+    margin-right:40px ;
+}
+form label{
+    margin-left: 40px;
+}
+#checkbox{
+    width: 15px;
+    flex-direction: column;
+}
+.agev{
+    font-size: 12px;
+}
+#btn{
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px inset rgb(166, 190, 130);
+    display: block;
+    margin: auto;
+    
+    
+}
+.guide{
+    font-size: 15px;
+    display: block;
+    margin-left: 40px;
+    width: 300px;
+    margin-top: 0px;
+}
+.guide span{
+    color: blue;
+    text-decoration:underline;
+}
