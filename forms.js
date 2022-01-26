@@ -20,6 +20,46 @@ function quantityChange(event){
  updateCartTotal()
 }
 
+var addToCart = document.getElementsByClassName('add-to-cart');
+for(i=0; i<addToCart.length; i++) {
+    var button = addToCart[i];
+    button.addEventListener('click', addToCartClick);
+}
+function addToCartClick(event){
+     var button = event.target
+     var shopItem = button.parentElement.parentElement
+     var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText;
+     var img = shopItem.getElementsByClassName('shop-item-img')[0].src;
+     var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText
+     addItemtoCartMethod(title,price,img);
+   
+} 
+function addItemtoCartMethod(title, price, img){
+    var cartRow = document.createElement('div')
+    cartRow.classList.add('cart-row')
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    var cartRowContent = `<div class="cart-items> 
+     <div class="cart-item">
+        <img width="70px" height="70px" src=${img} alt="">
+        <span class="cart-item-title">${title}</span>
+    </div>
+    <span class="cart-item-price">${price}</span>
+    <div class="cart-item-quantity">
+        <input type="number" name="quantity" class="quantity-class" value="1">
+        <button class="remove-btn" type="button">remove</button>
+    </div>
+</div>
+</div>`;
+console.log(cartItems)
+cartRowContent.innerHTML = cartRow;
+    cartRow.append(cartItems)
+ }
+
+ var purchace = document.getElementById('purchase')
+ purchace.addEventListener('click', purchaseClick)
+ function purchaseClick(){
+    alert('thanks for your purchase')
+ }
 
 function updateCartTotal(){
     var cartItemContainer = document.getElementsByClassName('cart-row')[0];
