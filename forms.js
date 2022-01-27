@@ -50,7 +50,6 @@ function addItemtoCartMethod(title, price, img){
     </div>
 </div>
 </div>`;
-console.log(cartItems)
 cartRowContent.innerHTML = cartRow;
     cartRow.append(cartItems)
  }

@@ -277,3 +277,29 @@ setInterval(setImage,2000);
 //     }
 //     console.log('My ' + choiceNum + choiceNumSuffix + ' choice is ' + choices[i]);
 // }
+
+var openDiscountButton = document.querySelectorAll('[data-discount-target');
+var closeDiscountButton = document.querySelectorAll('[data-close-button');
+var overlay = document.getElementById('overlay');
+openDiscountButton.forEach(button =>{
+  button.addEventListener('click', () =>{
+    var discount = document.querySelector(button.dataset.discountTarget)
+    openDiscount(discount)
+  })
+})
+closeDiscountButton.forEach(button =>{
+  button.addEventListener('click', () =>{
+    var discount = button.closest('.discount')
+    closeDiscount(discount)
+  })
+})
+function openDiscount(discount){
+  if (discount == null)return
+  discount.classList.add('active')
+  overlay.classList.add('active')
+}
+function closeDiscount(discount){
+  if (discount == null)return
+  discount.classList.remove('active')
+  overlay.classList.remove('active')
+}
