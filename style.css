@@ -1,3 +1,4 @@
+
 body{
     background-color: black;
     
@@ -96,6 +97,7 @@ div#messege{
     width: 100%;
     text-align: center;
     font-family: 'Yantramanav', sans-serif;
+    z-index: 10;
 }
 div.showme{
     display:block;
@@ -399,7 +401,7 @@ margin-bottom: 50px;
     border-radius: 10px;
     position: absolute;
     right: 5%;
-    bottom: 50%;
+    top: 100px;
     animation: change;
     animation-timing-function: ease-in-out;
     animation-duration: 200ms;
@@ -408,4 +410,59 @@ margin-bottom: 50px;
 @keyframes change{
 from{background-color: rgba(38, 90, 124); }
 to { background-color: rgb(10, 226, 64); }
+}
+.buttonI{
+    width: 60px;
+    height: 60px;
+    margin: 10px 0px 10px 0px;
+    overflow: hidden;
+    background-color: rgb(253, 253, 253);
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px;
+    transition: all 0.3s ease-in-out;
+}
+.buttonI:hover{
+    width: 200px;
+}
+.buttonI .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out; 
+}
+.buttonI .icon a{
+    font-size: 25px;
+    line-height: 60px;
+}
+ .Iifa:hover{ 
+    background-color: #4267b2;
+    color: rgb(253, 253, 253);
+
+}
+.Iitw:hover{ 
+    background-color: #1da1f2;
+    color:rgb(253, 253, 253);
+}
+.Iins:hover{ 
+    background-color: #e123e2;
+    color: rgb(253, 253, 253);
+}
+.buttonI:nth-child(1) span{
+    color: #4267b2;
+}
+.buttonI:nth-child(2) span{
+    color:#1da1f2 ;
+}
+.buttonI:nth-child(3) span{
+    color:#e123e2 ;
+}
+.wrapper-icons{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    
 }
